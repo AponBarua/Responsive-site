@@ -51,7 +51,21 @@ header{
 	text-decoration: none;
 	color: gray;
 }
+/* banner part start */
+.banner {
+    display: flex;
+    margin: 115px auto;
+    width: 1140px;
+}
 
+.b-title h4 {
+    font-size: 45px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+.b-title span {
+    color: #ff5000;
+}
 
 
 
@@ -79,5 +93,18 @@ header{
 		right: 20px;
 		top: 40px;
 		display: flex;
+	}
+	/* banner */
+	.banner{
+		width: 345px;
+		flex-direction: column-reverse;
+		margin-top: 10px;
+	}
+	.b-title h4{
+		font-size: 30px;
+	}
+	.banner img{
+		position: relative;
+		left: 20px;
 	}
 }

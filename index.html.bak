@@ -12,6 +12,7 @@
   
 </head>
 <body class="inter">
+	<!-- header part -->
 	<header>
 		<nav>
 			<div class="navbar">
@@ -20,8 +21,8 @@
 					<ul>
 						<div class="anchor">
 							<li><a href=""><span style="color: black"><b>Home</b></span></a></li>
-						<li><a href="">Shop</a></a></li>
-						<li><a href="">About us</a></a></li>
+							<li><a href="">Shop</a></a></li>
+							<li><a href="">About us</a></a></li>
 						</div>
 						<div class="cart">
 							<li><span style="color: black"><i class="fa-solid fa-cart-shopping"></i> <a href="" style="color: black">Cart ($56)</span></a></li>
@@ -31,6 +32,16 @@
 			</div>
 		</nav>
 	</header>
+	<!-- main part start -->
+	<main>
+		<div class="banner">
+			`<div class="b-title ">
+				<h4 class="noto-serif">ALWAYS <span>FRESH<br> FLOWER</span></h4>
+				<p>Indulge yours sense with the beauty the fragrance of out fresh flower shop. From classic roses to exotic blooms, we offer a wide varity of fresh flowers that are perfect for any occaion</p>
+			</div>
+			<img src="img/hero-flower.png">
+		</div>
+	</main>
 </body>
 
 </body>
