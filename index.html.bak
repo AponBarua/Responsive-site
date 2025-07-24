@@ -34,12 +34,29 @@
 	</header>
 	<!-- main part start -->
 	<main>
+		<!-- banner part -->
 		<div class="banner">
 			`<div class="b-title ">
 				<h4 class="noto-serif">ALWAYS <span>FRESH<br> FLOWER</span></h4>
 				<p>Indulge yours sense with the beauty the fragrance of out fresh flower shop. From classic roses to exotic blooms, we offer a wide varity of fresh flowers that are perfect for any occaion</p>
 			</div>
 			<img src="img/hero-flower.png">
+		</div>
+		
+		<!-- cart section -->
+		<div class="cart-section">
+			<div class="cart-title">
+				<h4 class="noto-serif"><span>Our</span> Plants</h4>
+				<p>Indulge your sense with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+			</div>
+			<div class="carts">
+				<div class="cart">
+					<img src="img/sample-flower-image.png">
+					<p>Lily BLossom</p>
+					<h5>20 USD</h5>
+					<p>ADD TO CART</p>
+				</div>
+			</div>
 		</div>
 	</main>
 </body>
