@@ -51,7 +51,9 @@ header{
 	text-decoration: none;
 	color: gray;
 }
-
+.cart {
+    width: 103px;
+}
 
 
 
