@@ -117,7 +117,7 @@
 				<div class="trusted-badge"><img src="img/trusted-badge.png"></div>
 			</div>
 			<div class="title-sub">
-				<h4>Flower & Plants<br>Lover</h4>
+				<h4 class="noto-serif">Flower & Plants Lover</h4>
 				<ul>
 					<li>Indulge your sense with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh. </li>
 					<li>Indulge your sense with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh. </li>
@@ -125,6 +125,42 @@
 				</ul>
 			</div>
 			
+		</div>
+		<!-- Latest deals -->
+		<div class="deals-section">
+			<div class="deals-title">
+				<h4 class="noto-serif"><span style="color:#ff5000">Latest</span> Deals</h4>
+				<p>Indulge your sense with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+			</div>
+			<div class="deals-img">
+				<div class="deals-img-1">
+						<div class="left-plants">
+									<div class="discount">
+										<h3 class="noto-serif">60% off | BLoom plant</h3>
+										<a href="">Shop now</a>
+									</div>
+									<div class="img-overlay"></div>
+								<img src="img/deal-bloom.png">
+						</div>
+						<div class="left-plants">
+									<div class="discount">
+										<h3 class="noto-serif">60% off | BLoom plant</h3>
+										<a href="">Shop now</a>
+									</div>
+									<div class="img-overlay"></div>
+									<img src="img/deal-bloom.png">
+						</div>
+						
+				</div>
+						<div class="right-plants">
+								<div class="discount">
+									<h3 class="noto-serif">60% off | BLoom plant</h3>
+									<a href="">Shop now</a>
+								</div>
+									<div class="overlay"></div>
+									<img src="img/deal-zabo.png">
+						</div>	
+			</div>
 		</div>
 	</main>
 </body>
