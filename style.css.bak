@@ -64,6 +64,9 @@ header{
 	margin-bottom: 0px;
 	font-weight: bold;
 }
+.b-title p {
+    color: #767676;
+}
 .b-title span {
     color: #ff5000;
 }
@@ -90,6 +93,9 @@ header{
     text-align: center;
     width: 600px;
     margin: 0 auto;
+}
+.cart-title p {
+    color: #767676;
 }
 .cart-title h4 {
     font-size: 30px;
@@ -148,7 +154,9 @@ header{
     width: 50%;
     margin: 0 auto;
 }
-
+.deals-title p {
+    color: #767676;
+}
 .deals-section {
     width: 1140px;
     margin: 0 auto;
@@ -213,7 +221,7 @@ header{
     position: absolute;
     display: inline-block;
     text-align: center;
-    left: 264px;
+    left: 276px;
     top: 181px;
     z-index: 2;
 }
@@ -332,5 +340,33 @@ header{
 		font-size: 25px;
 		font-weight: bold;
 	}
+	/* latest delas */
+	.deals-title {
+		text-align: center;
+		width: 98%;
+		margin: 0px 5px;
+	}
+	.deals-section {
+		margin: 0 auto;
+		width: 371px;
+	}
+	.deals-img {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.right-plants {
+		position: relative;
+		width: 360px;
+		/* top: -11px; */
+	}
+	/* .discount-2 { */
+		/* position: absolute; */
+		/* display: inline-block; */
+		/* text-align: center; */
+		/* left: 80px; */
+		/* bottom: 85px; */
+		/* z-index: 2; */
+	/* } */
 }
 
