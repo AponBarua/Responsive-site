@@ -52,11 +52,6 @@ header{
 	color: gray;
 }
 /* main body star */
-main {
-    width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
-}
 /* banner part start */
 .banner {
     display: flex;
@@ -73,9 +68,47 @@ main {
     color: #ff5000;
 }
 /* cart section */
-
+.carts {
+    display: flex;
+    gap: 28px;
+    text-align: center;
+    justify-content: space-between;
+	margin-bottom: 20px;
+}
+.cart {
+    width: 260px;
+}
+.cart img {
+    width: 100%;
+}
+.cart-section {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.cart-title {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
 .cart-title h4 {
     font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.cart h3 {
+    margin-top: 0;
+}
+.cart p{
+	margin-bottom: 10px;
+}
+.cart a {
+    background: #ff5000;
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
 }
 
 
@@ -98,7 +131,7 @@ main {
 	.anchor{
 		visibility: hidden;
 	}
-	.cart span{
+	.cart-icon span{
 		position: absolute;
 		right: 20px;
 		top: 40px;
@@ -116,5 +149,28 @@ main {
 	.banner img{
 		position: relative;
 		left: 20px;
+	}
+	/* cart-section */
+	.cart-title {
+		text-align: center;
+		width: 300px;
+		margin: 0 auto;
+	}
+	.carts {
+		display: grid;
+		flex-direction: column;
+		gap: 28px;
+		text-align: center;
+		justify-content: space-between;
+		grid-template-columns: repeat(2, 1fr);
+		margin-bottom: 20px;
+	}
+	.cart {
+    width: 162px;
+    margin: 0 5px;
+}
+	
+	.cart a{
+		margin: 0 auto;
 	}
 }
