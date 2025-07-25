@@ -247,8 +247,48 @@ header{
     z-index: 1;
     border-radius: 10px;
 }
-/* img overlay */
+/* subscribe section */
+.subscribe-section{
+	background-image: url("img/news-letter-bg.png");
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 70px;
+	text-align: center;
+	position: relative;
+}
 
+.content {
+    position: relative;
+    top: 200px;
+    left: 440px;
+}
+.content h4 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 46px;
+}
+.content {
+    position: relative;
+    top: 204px;
+    left: 17px;
+}
+.content input {
+    width: 570px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.content a {
+    background: #ff5000;
+    padding: 8px;
+    position: absolute;
+    text-decoration: none;
+}
 
 
 
@@ -360,13 +400,34 @@ header{
 		width: 360px;
 		/* top: -11px; */
 	}
-	/* .discount-2 { */
-		/* position: absolute; */
-		/* display: inline-block; */
-		/* text-align: center; */
-		/* left: 80px; */
-		/* bottom: 85px; */
-		/* z-index: 2; */
-	/* } */
+	
+	.discount-2 {
+		position: absolute;
+		text-align: center;
+		left: 77px;
+		top: 62px;
+		z-index: 2;
+	}
+	/* subscribe-section */
+	.subscribe-section{
+		height: 270px;
+		text-align: center;
+	}
+	.content {
+		position: absolute;
+		top: 45px;
+		left: 0px;
+	}
+	.content input {
+		width: 175px;
+	 
+	}
+	.content h4{
+		font-size:16px;
+	}
+	.input-subscribe input {
+    width: 168px;
+    
+	}
 }
 

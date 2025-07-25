@@ -153,13 +153,24 @@
 						
 				</div>
 						<div class="right-plants">
-								<div class="discount">
+								<div class="discount-2">
 									<h3 class="noto-serif">60% off | BLoom plant</h3>
 									<a href="">Shop now</a>
 								</div>
 									<div class="overlay"></div>
 									<img src="img/deal-zabo.png">
 						</div>	
+			</div>
+		</div>
+		
+		<!-- Subscribe section -->
+		<div class="subscribe-section">
+			<div class="content">
+				<h4 class="noto-serif">Join the colorfull Bunch</h4>
+				<div class="input-subscribe">
+					<input type="text" placeholder="Write Email">
+					<a href="">Subscribe</a>
+				</div>
 			</div>
 		</div>
 	</main>
