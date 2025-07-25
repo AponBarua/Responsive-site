@@ -198,7 +198,10 @@ header{
 	border-radius: 10px;
 	z-index:0;
 }
-.left-plants h3, a{
+.left-plants h3{
+	color: white;
+}
+.left-plants a{
 	color: white;
 }
 
@@ -236,7 +239,10 @@ header{
 	border-radius: 10px;
 	z-index:0;
 }
-.right-plants h3, a{
+.right-plants h3{
+	color: white;
+}
+.right-plants a{
 	color: white;
 }
 .overlay {
@@ -288,9 +294,40 @@ header{
     padding: 8px;
     position: absolute;
     text-decoration: none;
+    color: white;
 }
-
-
+/* footer section */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 37px auto;
+}
+.left {
+    width: 251px;
+}
+.left-middle ul li {
+    list-style: none;
+    margin: 17px 0;
+}
+.right-middle ul li {
+    list-style: none;
+    margin: 17px 0;
+}
+.left-middle a {
+    text-decoration:none;
+	color: gray;
+}
+.right-middle a {
+    text-decoration:none;
+	color: gray;
+}
+.twitter {
+    width: 40px;
+}
+.right img {
+    margin-left: 14px;
+}
 
 
 
@@ -429,5 +466,16 @@ header{
     width: 168px;
     
 	}
-}
+	.footer {
+		flex-direction: column;
+		margin-left: 5px;
+	}
+	.left-middle ul {
+		padding-left: 0px;
+		margin-bottom: 0px;
+	}
+	.right-middle ul {
+		padding-left: 0px;
+		margin-top: 0px;
+	}
 

@@ -167,13 +167,45 @@
 		<div class="subscribe-section">
 			<div class="content">
 				<h4 class="noto-serif">Join the colorfull Bunch</h4>
-				<div class="input-subscribe">
+				<!-- <div class="input-subscribe"> -->
 					<input type="text" placeholder="Write Email">
 					<a href="">Subscribe</a>
-				</div>
+				<!-- </div> -->
 			</div>
 		</div>
 	</main>
+	<footer>
+		<div class="footer">
+			<div class="left">
+				<img src="img/logo.png">
+				<p>Indulge yours sense with the beauty the fragrance of out fresh flower shop.</p>
+			</div>
+			<div class="left-middle">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">About us</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">FAQ</a></li>
+					<li><a href="">Contact us</a></li>
+				</ul>
+			</div>
+			<div class="right-middle">
+				<ul>
+					<li><a href="">Features</a></li>
+					<li><a href="">Pricing</a></li>
+					<li><a href="">Privacy Policy</a></li>
+					<li><a href="">Terms of service</a></li>
+					<li><a href="">help center</a></li>
+				</ul>
+			</div>
+			<div class="right">
+				<img src="img/icon-linkedin.png">
+				<img src="img/icon-twitter.png" style="width: 20px">
+				<img src="img/icon-facebook.png">
+				<img src="img/icon-youtube.png">
+			</div>
+		</div>
+	</footer>
 </body>
 
 </body>
